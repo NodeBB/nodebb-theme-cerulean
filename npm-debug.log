@@ -1,0 +1,201 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\psychobunny\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\PSYCHO~1\\AppData\\Local\\Temp\\npm-7328-eiy74pTl\\1382291182799-0.7395825264975429\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\psychobunny\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+17 verbose lock tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz C:\Users\psychobunny\AppData\Roaming\npm-cache\0606b18f-82799-0-7395825264975429-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+21 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+22 verbose tar unpack C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+23 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+24 verbose lock tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package C:\Users\psychobunny\AppData\Roaming\npm-cache\249b8738-82799-0-7395825264975429-package.lock
+25 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+26 verbose lock tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz C:\Users\psychobunny\AppData\Roaming\npm-cache\0606b18f-82799-0-7395825264975429-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry less/noscript.less
+35 silly gunzTarPerm modified mode [ 'less/noscript.less', 438, 420 ]
+36 silly gunzTarPerm extractEntry less/account.less
+37 silly gunzTarPerm modified mode [ 'less/account.less', 438, 420 ]
+38 silly gunzTarPerm extractEntry less/category.less
+39 silly gunzTarPerm modified mode [ 'less/category.less', 438, 420 ]
+40 silly gunzTarPerm extractEntry less/footer.less
+41 silly gunzTarPerm modified mode [ 'less/footer.less', 438, 420 ]
+42 silly gunzTarPerm extractEntry less/header.less
+43 silly gunzTarPerm modified mode [ 'less/header.less', 438, 420 ]
+44 silly gunzTarPerm extractEntry less/home.less
+45 silly gunzTarPerm modified mode [ 'less/home.less', 438, 420 ]
+46 silly gunzTarPerm extractEntry less/admin.less
+47 silly gunzTarPerm modified mode [ 'less/admin.less', 438, 420 ]
+48 silly gunzTarPerm extractEntry less/outgoing.less
+49 silly gunzTarPerm modified mode [ 'less/outgoing.less', 438, 420 ]
+50 silly gunzTarPerm extractEntry less/search.less
+51 silly gunzTarPerm modified mode [ 'less/search.less', 438, 420 ]
+52 silly gunzTarPerm extractEntry less/style.less
+53 silly gunzTarPerm modified mode [ 'less/style.less', 438, 420 ]
+54 silly gunzTarPerm extractEntry less/topic.less
+55 silly gunzTarPerm modified mode [ 'less/topic.less', 438, 420 ]
+56 silly gunzTarPerm extractEntry less/unread.less
+57 silly gunzTarPerm modified mode [ 'less/unread.less', 438, 420 ]
+58 silly gunzTarPerm extractEntry less/users.less
+59 silly gunzTarPerm modified mode [ 'less/users.less', 438, 420 ]
+60 silly gunzTarPerm extractEntry theme.json
+61 silly gunzTarPerm modified mode [ 'theme.json', 438, 420 ]
+62 silly gunzTarPerm extractEntry theme.less
+63 silly gunzTarPerm modified mode [ 'theme.less', 438, 420 ]
+64 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+65 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+66 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+67 silly lockFile 0606b18f-82799-0-7395825264975429-tmp-tgz tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\tmp.tgz
+68 verbose tar pack [ 'C:\\Users\\psychobunny\\AppData\\Roaming\\npm-cache\\nodebb-theme-cerulean\\0.0.1\\package.tgz',
+68 verbose tar pack   'C:\\Users\\PSYCHO~1\\AppData\\Local\\Temp\\npm-7328-eiy74pTl\\1382291182799-0.7395825264975429\\package' ]
+69 verbose tarball C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+70 verbose folder C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+71 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+72 verbose lock tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package C:\Users\psychobunny\AppData\Roaming\npm-cache\249b8738-82799-0-7395825264975429-package.lock
+73 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+74 verbose lock tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz C:\Users\psychobunny\AppData\Roaming\npm-cache\4b6e9f0a-theme-cerulean-0-0-1-package-tgz.lock
+75 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+76 silly lockFile 249b8738-82799-0-7395825264975429-package tar://C:\Users\PSYCHO~1\AppData\Local\Temp\npm-7328-eiy74pTl\1382291182799-0.7395825264975429\package
+77 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+78 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+79 silly lockFile 226bb73f-ebb-theme-cerulean-0-0-1-package C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+80 verbose lock C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package C:\Users\psychobunny\AppData\Roaming\npm-cache\226bb73f-ebb-theme-cerulean-0-0-1-package.lock
+81 silly lockFile 226bb73f-ebb-theme-cerulean-0-0-1-package C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+82 silly lockFile 226bb73f-ebb-theme-cerulean-0-0-1-package C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+83 verbose tar unpack C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+84 silly lockFile 52b4fe1d-ebb-theme-cerulean-0-0-1-package tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+85 verbose lock tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package C:\Users\psychobunny\AppData\Roaming\npm-cache\52b4fe1d-ebb-theme-cerulean-0-0-1-package.lock
+86 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+87 verbose lock tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz C:\Users\psychobunny\AppData\Roaming\npm-cache\4b6e9f0a-theme-cerulean-0-0-1-package-tgz.lock
+88 silly gunzTarPerm modes [ '755', '644' ]
+89 silly gunzTarPerm extractEntry package.json
+90 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+91 silly gunzTarPerm extractEntry .npmignore
+92 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+95 silly gunzTarPerm extractEntry less/noscript.less
+96 silly gunzTarPerm modified mode [ 'less/noscript.less', 438, 420 ]
+97 silly gunzTarPerm extractEntry less/account.less
+98 silly gunzTarPerm modified mode [ 'less/account.less', 438, 420 ]
+99 silly gunzTarPerm extractEntry less/category.less
+100 silly gunzTarPerm modified mode [ 'less/category.less', 438, 420 ]
+101 silly gunzTarPerm extractEntry less/footer.less
+102 silly gunzTarPerm modified mode [ 'less/footer.less', 438, 420 ]
+103 silly gunzTarPerm extractEntry less/header.less
+104 silly gunzTarPerm modified mode [ 'less/header.less', 438, 420 ]
+105 silly gunzTarPerm extractEntry less/home.less
+106 silly gunzTarPerm modified mode [ 'less/home.less', 438, 420 ]
+107 silly gunzTarPerm extractEntry less/admin.less
+108 silly gunzTarPerm modified mode [ 'less/admin.less', 438, 420 ]
+109 silly gunzTarPerm extractEntry less/outgoing.less
+110 silly gunzTarPerm modified mode [ 'less/outgoing.less', 438, 420 ]
+111 silly gunzTarPerm extractEntry less/search.less
+112 silly gunzTarPerm modified mode [ 'less/search.less', 438, 420 ]
+113 silly gunzTarPerm extractEntry less/style.less
+114 silly gunzTarPerm modified mode [ 'less/style.less', 438, 420 ]
+115 silly gunzTarPerm extractEntry less/topic.less
+116 silly gunzTarPerm modified mode [ 'less/topic.less', 438, 420 ]
+117 silly gunzTarPerm extractEntry less/unread.less
+118 silly gunzTarPerm modified mode [ 'less/unread.less', 438, 420 ]
+119 silly gunzTarPerm extractEntry less/users.less
+120 silly gunzTarPerm modified mode [ 'less/users.less', 438, 420 ]
+121 silly gunzTarPerm extractEntry theme.json
+122 silly gunzTarPerm modified mode [ 'theme.json', 438, 420 ]
+123 silly gunzTarPerm extractEntry theme.less
+124 silly gunzTarPerm modified mode [ 'theme.less', 438, 420 ]
+125 silly lockFile 52b4fe1d-ebb-theme-cerulean-0-0-1-package tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+126 silly lockFile 52b4fe1d-ebb-theme-cerulean-0-0-1-package tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package
+127 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+128 silly lockFile 4b6e9f0a-theme-cerulean-0-0-1-package-tgz tar://C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+129 verbose chmod C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz 644
+130 silly chown skipping for windows C:\Users\psychobunny\AppData\Roaming\npm-cache\nodebb-theme-cerulean\0.0.1\package.tgz
+131 silly lockFile 3a52ce78- .
+132 silly lockFile 3a52ce78- .
+133 silly publish { name: 'nodebb-theme-cerulean',
+133 silly publish   version: '0.0.1',
+133 silly publish   description: 'Cerulean theme for NodeBB',
+133 silly publish   main: 'theme.less',
+133 silly publish   repository:
+133 silly publish    { type: 'git',
+133 silly publish      url: 'https://github.com/designcreateplay/nodebb-theme-cerulean' },
+133 silly publish   keywords: [ 'nodebb', 'cerulean', 'theme', 'themes' ],
+133 silly publish   contributors:
+133 silly publish    [ { name: 'Andrew Rodrigues',
+133 silly publish        email: 'andrew@designcreateplay.com',
+133 silly publish        url: 'https://github.com/psychobunny' },
+133 silly publish      { name: 'Julian Lam',
+133 silly publish        email: 'julian@designcreateplay.com',
+133 silly publish        url: 'https://github.com/julianlam' },
+133 silly publish      { name: 'Barış Soner Uşaklı',
+133 silly publish        email: 'baris@designcreateplay.com',
+133 silly publish        url: 'https://github.com/barisusakli' } ],
+133 silly publish   license: 'BSD-2-Clause',
+133 silly publish   bugs: { url: 'https://github.com/designcreateplay/nodebb-theme-cerulean/issues' },
+133 silly publish   peerDependencies: { 'nodebb-theme-vanilla': '~0.0.1' },
+133 silly publish   readme: 'nodebb-theme-cerulean\r\n=====================\r\n\r\nThe default NodeBB theme based on the vanilla theme\r\n',
+133 silly publish   readmeFilename: 'README.md',
+133 silly publish   _id: 'nodebb-theme-cerulean@0.0.1',
+133 silly publish   dist: { shasum: '1d8914acb2c55865d8ca7462b8fa51766c2f36c8' },
+133 silly publish   _from: '.' }
+134 verbose url raw nodebb-theme-cerulean
+135 verbose url resolving [ 'https://registry.npmjs.org/', './nodebb-theme-cerulean' ]
+136 verbose url resolved https://registry.npmjs.org/nodebb-theme-cerulean
+137 info trying registry request attempt 1 at 13:46:23
+138 http PUT https://registry.npmjs.org/nodebb-theme-cerulean
+139 http 409 https://registry.npmjs.org/nodebb-theme-cerulean
+140 verbose url raw nodebb-theme-cerulean
+141 verbose url resolving [ 'https://registry.npmjs.org/', './nodebb-theme-cerulean' ]
+142 verbose url resolved https://registry.npmjs.org/nodebb-theme-cerulean
+143 info trying registry request attempt 1 at 13:46:24
+144 http GET https://registry.npmjs.org/nodebb-theme-cerulean
+145 http 200 https://registry.npmjs.org/nodebb-theme-cerulean
+146 error publish fail Cannot publish over existing version.
+146 error publish fail Update the 'version' field in package.json and try again.
+146 error publish fail
+146 error publish fail If the previous version was published in error, see:
+146 error publish fail     npm help unpublish
+146 error publish fail
+146 error publish fail To automatically increment version numbers, see:
+146 error publish fail     npm help version
+147 error System Windows_NT 6.2.9200
+148 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+149 error cwd C:\Users\psychobunny\Documents\GitHub\nodebb-theme-cerulean
+150 error node -v v0.10.20
+151 error npm -v 1.3.11
+152 error code EPUBLISHCONFLICT
+153 verbose exit [ 1, true ]
