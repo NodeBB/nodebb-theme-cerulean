@@ -1,2 +1,3 @@
 *.css
 npm-debug.log
+sftp-config.json
