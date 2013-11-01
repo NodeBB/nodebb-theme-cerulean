@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-cerulean",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cerulean theme for NodeBB",
   "main": "theme.less",
   "repository": {
