@@ -2,8 +2,16 @@
 
 
 .topic {
-	.sub-posts {
-		/* speech bubbles for child posts */
+	.posts {
+		.post-info {
+			background: rgba(0, 0, 0, 0.02);
+			margin: 15px -11px -11px -11px;
+			border-radius: 0 0 5px 5px;
+			font-size: 10px;
+			color: #777;
+		}
+
+		/* speech bubbles for replies */
 		@media (min-width: 992px) {
 			.post-block:after
 			{
@@ -35,16 +43,20 @@
 		}
 	}
 
-	.main-post, .sub-posts {
-		.post-info {
-			background: rgba(0, 0, 0, 0.02);
-			margin: 15px -11px -11px -11px;
-			border-radius: 0 0 5px 5px;
-			font-size: 10px;
-			color: #777;
+	.posts li:first-child {
+		/* no speech bubble for main post */
+		@media (min-width: 992px) {
+			.post-block:after
+			{
+				display: none;
+			}
+
+			.post-block:before
+			{
+				display: none;
+			}
 		}
 	}
-
 
 	.active-users {
 		color: rgb(153,153,153);
