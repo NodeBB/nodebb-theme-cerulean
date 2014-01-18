@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-cerulean",
-  "version": "0.0.11-1",
+  "version": "0.0.12-1",
   "description": "Cerulean theme for NodeBB",
   "main": "theme.less",
   "repository": {
@@ -35,6 +35,6 @@
     "url": "https://github.com/designcreateplay/nodebb-theme-cerulean/issues"
   },
   "peerDependencies": {
-    "nodebb-theme-vanilla": "~0.0.8"
+    "nodebb-theme-vanilla": "~0.0.13"
   }
 }
