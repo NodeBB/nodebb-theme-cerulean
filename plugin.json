@@ -1,4 +1,5 @@
 {
+	"id": "nodebb-theme-cerulean",
 	"library": "./lib/theme.js",
 	"hooks": [
 		{
